@@ -6,6 +6,10 @@
 // base styles
 
 @import './base/common';
-@import './base/container';
 @import './base/reset';
+@import './base/container';
+@import './base/js-selectors.scss';
+ 
+// components
 
+@import './components/button.scss'
