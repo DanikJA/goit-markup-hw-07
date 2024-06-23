@@ -155,7 +155,7 @@ body {
     color: var(--grey-color);
 }
 
-.subject {
+.section-work__title {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.03em;
@@ -164,6 +164,18 @@ body {
     padding-bottom: 0;
 
 }
+
+.subject{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 0;
+
+}
+
+
 
 .site-nav .link {
     font-family: "Roboto", sans-serif;
@@ -597,15 +609,15 @@ textarea::placeholder{
 
 }
 
-.section-images {
+.section-work {
     padding-bottom: 94px;
 }
 
-.section-images .subject {
+.section-work .section-work__title {
     margin-top: 0px;
 }
 
-.section-images .images {
+.section-work .images {
     display: flex;
     gap: 30px;
 }
