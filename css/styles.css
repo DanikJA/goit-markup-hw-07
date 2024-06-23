@@ -617,16 +617,16 @@ textarea::placeholder{
     margin-top: 0px;
 }
 
-.section-work .images {
+.section-work .section-work__list {
     display: flex;
     gap: 30px;
 }
 
-.images li{
+.section-work__item{
  position: relative;
 }
 
-.paragraph-img {
+.section-work__product {
 position: absolute;
 font-weight: 700;
 letter-spacing: 0.03em;
@@ -646,7 +646,7 @@ padding-bottom: 27px;
     align-items: center;
 }
 
-.images .img {
+.section-work__list .section-work__img {
     display: block;
 }
 
