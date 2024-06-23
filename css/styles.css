@@ -83,7 +83,7 @@ body {
     margin-left: auto;
 }
 
-.typography {
+.section-hero__heading {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -364,7 +364,7 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn{
+.modal-wrapper__btn{
    display: flex;
    position: absolute;
    top: 8px;
@@ -384,8 +384,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover,
-.modal-btn:focus{
+.modal-wrapper__btn:hover,
+.modal-wrapper__btn:focus{
        fill:var(--blue);
         transition-property: fill;
         transition-duration: 250ms;
@@ -406,9 +406,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         display: block;
 }
 
-.modal-form{
-    display: block;
-}
+
 
 
 textarea{
@@ -420,7 +418,7 @@ textarea{
     padding: 12px 16px;
 }
 
-.input-mod{
+.form-label__input{
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     width: 100%;
@@ -429,18 +427,18 @@ textarea{
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-mod:hover,
-.input-mod:focus{
+.form-label__input:hover,
+.form-label__input:focus{
     outline: none;
     border: 1px solid var(--blue);
 }
 
-.input-mod:hover ~ .modal-svg,
-.input-mod:focus ~ .modal-svg{
+.form-label__input:hover ~ .form-label__img,
+.form-label__input:focus ~ .form-label__img{
     fill:var(--blue);
 }
 
-.modal-label{
+.form-label__title{
     display: block;
     font-size: 12px;
     letter-spacing: 0.01em;
@@ -450,8 +448,8 @@ textarea{
 
 
 
-.holder-text:hover,
-.holder-text:focus{
+.form-label__comment:hover,
+.form-label__comment:focus{
     outline: none;
     border: 1px solid var(--blue);  
 }
@@ -474,7 +472,7 @@ textarea{
     margin-left: 5px;
  }
 
-.text-input {
+.policy-label__input {
     appearance: none;
     display: inline-block;
     width: 16px;
@@ -488,7 +486,7 @@ textarea{
 
 }
 
-.text-input:checked {
+.policy-label__input:checked {
     border-color: transparent;
     background-color: var(--blue);
     background-image: url(../іmages/icon\ check.svg);
@@ -496,12 +494,12 @@ textarea{
     background-origin: border-box;
 }
 
- .holder-text{
+ .form-label__comment{
     margin-bottom: 20px;
     height: 120px;
  }
        
-.modal-submit {
+.modal-button {
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -522,18 +520,18 @@ textarea{
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-submit:hover,
-.modal-submit:focus{
+.modal-button:hover,
+.modal-button:focus{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background:var(--blue);
 }
 
-.modal-div{
+.form-label{
 position: relative;
 margin-top: 10px;
 }
 
-.modal-svg{
+.form-label__img{
     position:absolute;
     top: 50%;
     left: 15px;
@@ -542,8 +540,8 @@ margin-top: 10px;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-svg:hover,
-.modal-svg:focus{
+.form-label__img:hover,
+.form-label__img:focus{
     fill: var(--blue);
 }
 
