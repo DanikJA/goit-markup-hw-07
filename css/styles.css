@@ -1,6 +1,6 @@
                                                  /* css for index.html */
                                        /* колір основного шрифту   color: #212121; */
-
+/*
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ li {
     padding: 0;
 }
 
-
+/*
 html {
     scroll-behavior: smooth;
 }
@@ -34,11 +34,11 @@ body {
     background: var(--background-white);
 
 }
-
+*/
 .site-second {
     margin-left: auto;
 }
-
+/*
 :root {
     --main-color: #212121;
     --background-white: #fff;
@@ -50,7 +50,7 @@ body {
     --bottom-color: #afb1b8;
     --border-white: #eee;
 }
-
+*/
 .web-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -318,7 +318,7 @@ li {
     display: block;
     padding-left: 0px;
 }
-
+/*
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -326,7 +326,7 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
-
+*/
 .page-header {
     display: flex;
     align-items: center;
