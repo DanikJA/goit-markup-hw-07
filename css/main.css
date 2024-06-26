@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --main-color: #212121;
   --background-white: #fff;
@@ -19,6 +20,39 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   background: var(--background-white);
+}
+
+.section-hero {
+  background: var(--hero-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../іmages/Img.hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../іmages/Img.hero.jpg);
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-work {
+  padding-bottom: 94px;
+}
+
+.bottom-section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  background: var(--second-white);
+}
+
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.cards-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 * {
@@ -106,37 +140,6 @@ li {
   margin-left: 12px;
 }
 
-.button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: var(--background-white);
-  display: block;
-  background-color: var(--blue);
-  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 10px;
-  padding-right: 32px;
-  padding-bottom: 10px;
-  padding-left: 32px;
-  border: none;
-  -webkit-transition-property: -webkit-box-shadow;
-  transition-property: -webkit-box-shadow;
-  transition-property: box-shadow;
-  transition-property: box-shadow, -webkit-box-shadow;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-button {
   display: block;
   margin-right: auto;
@@ -166,4 +169,35 @@ li {
   -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--blue);
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--background-white);
+  display: block;
+  background-color: var(--blue);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  border: none;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=main.css.map */

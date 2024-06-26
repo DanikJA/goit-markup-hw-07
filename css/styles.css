@@ -69,7 +69,7 @@ body {
     color: var(--studio-black);
     font-family: "Raleway", sans-serif;
 }
-
+/*
 .section-hero {
     background: var(--hero-color);
     padding-top: 200px;
@@ -83,7 +83,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-
+*/
 .section-hero__heading {
     font-weight: 900;
     font-size: 44px;
@@ -260,11 +260,11 @@ body {
 li {
     list-style-type: none;
 }
-
+/*
 .bottom-section {
     background: var(--second-white);
 }
-
+*/
 .footer {
     background: var(--hero-color);
     padding-top: 60px;
@@ -612,11 +612,11 @@ textarea::placeholder{
     padding-bottom: 94px;
 
 }
-
+/*
 .section-work {
     padding-bottom: 94px;
 }
-
+*/
 .section-work .section-work__title {
     margin-top: 0px;
 }
@@ -659,12 +659,12 @@ padding-bottom: 27px;
 }
 
 /* наша команда */
-
+/*
 .bottom-section {
     padding-bottom: 94px;
     padding-top: 94px;
 }
-
+*/
 .bottom-section .subject-icon {
     display: flex;
     gap: 30px;
@@ -853,12 +853,12 @@ padding-bottom: 27px;
     display: flex;
     align-items: baseline;
 }
-
+/*
 .clients-section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
+*/
 
                                             /* Portfolio HTML */
 
@@ -1014,27 +1014,27 @@ button {
 a {
     text-decoration: none;
 }
-
-.button-section {
+/*
+.cards-section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
+*/
 .site-nav .link {
     text-transform: capitalize
 }
 
-.button-section .links {
+.cards-section .links {
     display: flex;
     justify-content: center;
 }
 
-.button-section .links-li:not(:last-child) {
+.cards-section .links-li:not(:last-child) {
     margin-right: 8px;
 }
 
-.button-section .tagline {
-    display: flex;
+.cards-section .tagline {
+    display: flex; 
     flex-wrap: wrap;
     padding-left: 0px;
     padding-right: 0px;
@@ -1043,7 +1043,7 @@ a {
 
 }
 
-.button-section .tagline-div {
+.cards-section .tagline-div {
     border-left: 1px solid var(--border-white);
     border-right: 1px solid var(--border-white);
     border-bottom: 1px solid var(--border-white);
