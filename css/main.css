@@ -205,9 +205,7 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-wrapper__btn:hover,
-.modal-wrapper__btn:focus {
+.modal-wrapper__btn:hover, .modal-wrapper__btn:focus {
   fill: var(--blue);
   -webkit-transition-property: fill;
   transition-property: fill;
@@ -247,9 +245,7 @@ textarea {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form-label__input:hover,
-.form-label__input:focus {
+.form-label__input:hover, .form-label__input:focus {
   outline: none;
   border: 1px solid var(--blue);
 }
@@ -267,8 +263,11 @@ textarea {
   margin-bottom: 4px;
 }
 
-.form-label__comment:hover,
-.form-label__comment:focus {
+.form-label__comment {
+  margin-bottom: 20px;
+  height: 120px;
+}
+.form-label__comment:hover, .form-label__comment:focus {
   outline: none;
   border: 1px solid var(--blue);
 }
@@ -320,11 +319,6 @@ textarea {
   background-origin: border-box;
 }
 
-.form-label__comment {
-  margin-bottom: 20px;
-  height: 120px;
-}
-
 .modal-button {
   display: block;
   margin-right: auto;
@@ -350,9 +344,7 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-button:hover,
-.modal-button:focus {
+.modal-button:hover, .modal-button:focus {
   -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--blue);
@@ -374,9 +366,7 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form-label__img:hover,
-.form-label__img:focus {
+.form-label__img:hover, .form-label__img:focus {
   fill: var(--blue);
 }
 
@@ -455,6 +445,9 @@ textarea::placeholder {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.site-nav .link:hover, .site-nav .link:focus {
+  color: var(--blue);
+}
 
 .site-nav .link-current {
   position: relative;
@@ -474,11 +467,6 @@ textarea::placeholder {
   height: 4px;
   background: var(--blue);
   bottom: 0;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--blue);
 }
 
 .site-nav {
@@ -523,9 +511,7 @@ textarea::placeholder {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.site-second .studio-link:hover,
-.site-second .studio-link:focus {
+.site-second .studio-link:hover, .site-second .studio-link:focus {
   color: var(--blue);
 }
 
@@ -608,6 +594,7 @@ textarea::placeholder {
 
 .footer .mail {
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -618,9 +605,7 @@ textarea::placeholder {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer .mail:hover,
-.footer .mail:focus {
+.footer .mail:hover, .footer .mail:focus {
   color: var(--background-white);
 }
 
@@ -696,25 +681,6 @@ textarea::placeholder {
   color: var(--background-white);
 }
 
-.footer .mail {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer .mail:hover,
-.footer .mail:focus {
-  color: var(--background-white);
-}
-
 .bottom-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -737,6 +703,9 @@ textarea::placeholder {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.bottom-links:hover, .bottom-links:focus {
+  background-color: var(--blue);
+}
 
 .bottom-list {
   display: -webkit-box;
@@ -746,15 +715,6 @@ textarea::placeholder {
   padding: 0;
   fill: var(--background-white);
   gap: 10px;
-}
-
-.social-li {
-  backgroundcolor: var(--background-white);
-}
-
-.bottom-links:hover,
-.bottom-links:focus {
-  background-color: var(--blue);
 }
 
 .footer-label {
@@ -783,9 +743,7 @@ textarea::placeholder {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-input:hover,
-.footer-input:focus {
+.footer-input:hover, .footer-input:focus {
   outline: none;
   border: 1px solid var(--background-white);
 }
@@ -1060,9 +1018,6 @@ textarea::placeholder {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-}
-
-.social-links {
   fill: var(--bottom-color);
   -webkit-transition-property: background-color, fill;
   transition-property: background-color, fill;
@@ -1071,9 +1026,7 @@ textarea::placeholder {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-links:hover,
-.social-links:focus {
+.social-links:hover, .social-links:focus {
   background-color: var(--blue);
   fill: var(--background-white);
 }
@@ -1169,14 +1122,6 @@ textarea::placeholder {
           box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
-.links .navigation:focus,
-.links .navigation:hover {
-  background: var(--blue);
-  color: var(--background-white);
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-}
-
 .links .navigation {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -1198,11 +1143,11 @@ textarea::placeholder {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.tagline .list-links:hover,
-.tagline .list-links:focus {
-  -webkit-box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-          box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+.links .navigation:focus, .links .navigation:hover {
+  background: var(--blue);
+  color: var(--background-white);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .tagline .subtitles {
@@ -1239,6 +1184,10 @@ textarea::placeholder {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list-links:hover, .list-links:focus {
+  -webkit-box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 button {

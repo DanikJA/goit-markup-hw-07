@@ -58,15 +58,18 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+            fill: var(--blue);
+            transition-property: fill;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
 
-.modal-wrapper__btn:hover,
-.modal-wrapper__btn:focus {
-    fill: var(--blue);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .font-title {
     display: block;
@@ -99,13 +102,16 @@ textarea {
     height: 40px;
     padding-left: 43px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+            outline: none;
+            border: 1px solid var(--blue);
+        }
 }
 
-.form-label__input:hover,
-.form-label__input:focus {
-    outline: none;
-    border: 1px solid var(--blue);
-}
+
 
 .form-label__input:hover~.form-label__img,
 .form-label__input:focus~.form-label__img {
@@ -120,14 +126,16 @@ textarea {
     margin-bottom: 4px;
 }
 
+.form-label__comment {
+    margin-bottom: 20px;
+    height: 120px;
 
-
-.form-label__comment:hover,
-.form-label__comment:focus {
-    outline: none;
-    border: 1px solid var(--blue);
+    &:hover,
+    &:focus {
+            outline: none;
+            border: 1px solid var(--blue);
+        }
 }
-
 
 .policy-label {
     display: flex;
@@ -168,11 +176,6 @@ textarea {
     background-origin: border-box;
 }
 
-.form-label__comment {
-    margin-bottom: 20px;
-    height: 120px;
-}
-
 .modal-button {
     display: block;
     margin-right: auto;
@@ -192,13 +195,16 @@ textarea {
     transition-property: box-shadow, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+   &:hover,
+   &:focus {
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background: var(--blue);
+        }
 }
 
-.modal-button:hover,
-.modal-button:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--blue);
-}
+
 
 .form-label {
     position: relative;
@@ -212,12 +218,14 @@ textarea {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+            fill: var(--blue);
+        }
 }
 
-.form-label__img:hover,
-.form-label__img:focus {
-    fill: var(--blue);
-}
 
 
 textarea::placeholder {

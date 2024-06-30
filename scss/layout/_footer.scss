@@ -20,6 +20,7 @@
 
 .footer .mail {
     font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -27,14 +28,13 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+   &:hover,
+   &:focus {
+            color: var(--background-white);
+        }
 }
-
-.footer .mail:hover,
-.footer .mail:focus {
-    color: var(--background-white);
-}
-
-
 
 .footer .footer-ul {
     display: block;
@@ -89,23 +89,6 @@
     color: var(--background-white);
 }
 
-.footer .mail {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer .mail:hover,
-.footer .mail:focus {
-    color: var(--background-white);
-}
-
 .bottom-links {
     display: flex;
     justify-content: center;
@@ -118,7 +101,12 @@
 
     transition-property: background-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            background-color: var(--blue);
+        }
 }
 
 .bottom-list {
@@ -127,16 +115,6 @@
     padding: 0;
     fill: var(--background-white);
     gap: 10px;
-}
-
-.social-li {
-    backgroundcolor: var(--background-white);
-}
-
-.bottom-links:hover,
-.bottom-links:focus {
-    background-color: var(--blue);
-
 }
 
 .footer-label {
@@ -161,12 +139,13 @@
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-input:hover,
-.footer-input:focus {
-    outline: none;
-    border: 1px solid var(--background-white);
+
+   &:hover,
+   &:focus {
+            outline: none;
+            border: 1px solid var(--background-white);
+        }
 }
 
 .footer-btn {
@@ -190,8 +169,6 @@
     margin-left: 10px;
 }
 
-
-
 .footer-input::placeholder {
     font-weight: 400;
     font-size: 16px;
@@ -199,7 +176,6 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-
 
 .footer-form {
     margin-left: 93px;

@@ -50,7 +50,6 @@
     color: var(--grey-color);
 }
 
-
 .social-items {
     background-color: var(--background-white)
 }
@@ -66,25 +65,24 @@
 }
 
 .social-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-}
-
-.social-links {
-    fill: var(--bottom-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        fill: var(--bottom-color);
 
     transition-property: background-color, fill;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+            background-color: var(--blue);
+            fill: var(--background-white);
+    
+        }
 }
 
-.social-links:hover,
-.social-links:focus {
-    background-color: var(--blue);
-    fill: var(--background-white);
-
-}

@@ -28,9 +28,13 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+            color: var(--blue);
+        }
 }
-
-
 
 .site-nav .link-current {
     position: relative;
@@ -52,11 +56,6 @@
     bottom: 0;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--blue);
-}
-
 .site-nav {
     display: flex;
 }
@@ -72,6 +71,7 @@
 .site-second .item1:not(:last-child) {
     margin-right: 50px;
 }
+
 .site-second .studio-link {
     color: var(--grey-color);
     letter-spacing: 0.02em;
@@ -84,14 +84,13 @@
 
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
-}
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
-
-.site-second .studio-link:hover,
-.site-second .studio-link:focus {
-    color: var(--blue);
+    &:hover,
+    &:focus {
+            color: var(--blue);
+        }
 }
 
 .site-second {
